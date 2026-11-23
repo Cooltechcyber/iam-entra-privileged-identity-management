@@ -40,6 +40,32 @@ An IAM security analyst needs temporary read-only access to identity reports wit
 3. **PIM is auditable.** The successful activation audit record included the requestor, target role, business reason, status, and expiration time.
 4. **Temporary access ended.** The final Active assignments view displayed no results. The available evidence does not establish whether this was manual deactivation or expiry.
 
+## Selected visual evidence
+
+### Baseline role settings
+
+![Baseline role settings](screenshots/09-entra-pim-reports-reader-role-settings-baseline.png)
+
+### Saved one-hour MFA activation controls
+
+![Saved one-hour MFA activation controls](screenshots/11-entra-pim-activation-security-settings-saved.png)
+
+### Eligible role assignment
+
+![Eligible role assignment](screenshots/12-entra-pim-reports-reader-eligible-assignment.png)
+
+### Successful JIT activation
+
+![Successful JIT activation](screenshots/15-entra-pim-reports-reader-activation-result.png)
+
+### PIM activation audit trail
+
+![PIM activation audit trail](screenshots/16-entra-pim-reports-reader-activation-audit.png)
+
+### No active assignment after access ended
+
+![No active assignment after access ended](screenshots/17-entra-pim-reports-reader-deactivation-verification.png)
+
 ## Evidence and limitations
 
 [View the 17-screenshot evidence index](screenshots/README.md) · [Read the detailed case study](docs/case-study.md)
